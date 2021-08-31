@@ -36,7 +36,7 @@ const fromYenToPound = (valueInYen) => {
     valueInPound = parseFloat(valueInPound.toFixed(2));
     return valueInPound;
 }
-
+//function to round to 2 decimal digits
 function roundToTwo(num) {
     return +(Math.round(num + "e+2") + "e-2");
 }
